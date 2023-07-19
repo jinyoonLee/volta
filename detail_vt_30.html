@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>volta</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/volta.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+    <link rel="icon" href="images/favi_volta.ico">
+</head>
+<body>
+    <div id="searchPanel">
+        <h2>
+            SEARCH
+            <input type="button" value="close" class="material-icons btnClose">
+        </h2>
+        <div class="name2">
+            <form action="#">
+                <input type="search" id="searchField" title="looking for" placeholder="SEARCH HERE">
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+    <!-- ! searchPanel -->
+
+    <header class="menu1" id="home">
+        <div>
+            <p>
+                <strong>Free shipping to the EU,</strong> Outside EU import duty will apply
+            </p>
+        </div>
+        <div>
+            <h1>
+                <a href="index.html#">
+                    <img src="images/logo.png" alt="volta">
+                </a>
+            </h1>
+            <nav>
+                <input type="button" value="menu" id="muiNavBtn" class="material-icons">
+                <ul>
+                    <li>
+                        <b>SHOP</b>
+                        <ol class="menu2">
+                            <li><a href="list_vt_01.html">VOLTA</a></li>
+                            <li><a href="list_wv_01.html">WATT&amp;VEKE</a></li>
+                            <li><a href="list_fm_01.html">FLENSTED</a></li>
+                            <li><a href="list_kb_01.html">KAY BOJESEN</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="promotion.html"><strong>PROMOTION</strong></a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <ul> 
+                <li><a href="login.html">Login</a></li>
+                <li><a href="member_mypage.html">My page</a></li>
+                <li><a href="order_cart.html">Cart -</a><span>1</span></li>
+                <li><input type="button" value="search" class="material-icons" data-panel="searchPanel"></li>
+            </ul>
+        </div>
+    </header>
+    <!-- ! header -->
+
+
+
+
+    <div class="detailArea name1">
+        <aside>
+            <h2>ISTANBUL</h2>
+            <strong>₩166,000</strong>
+            <ul class="detailTabMenu">
+                <li class="active">blue</li>
+            </ul>
+            <div class="countComp">
+                <input type="button" value="-" class="countMinus">
+                <input type="number" id="countNumb" min="1" max="20" step="1" value="1">
+                <input type="button" value="+" class="countPlus">
+            </div>
+            <span class="name2">TOTAL</span>
+            <strong>
+                ₩<output class="subTotalPrice">166000</output>
+            </strong>
+            <a class="aBtn" href="order_cart.html">ADD TO CART</a>
+            <a class="aBtn" href="order_checkout.html">BUY NOW</a>
+            <ul class="accComp menu1">
+                <li>
+                    <h3>CHARACTERISTICS</h3>
+                    <p>
+                        Colors: two shades of blue<br>
+                        Materials: steel and aluminum<br>
+                        Size: H 41 cm x W 46 cm<br>
+                        Maintenance: clean gently with a soft cloth
+                    </p>
+                </li>
+                <li>
+                    <h3>MAKING</h3>
+                    <p>
+                        This mobile was made in our workshop near Barcelona, ​​Spain. Model available in different colors on our e-shop.
+                    </p>
+                </li>
+                <li>
+                    <h3>INFO</h3>
+                    <p>
+                        The ISTANBUL offers a set of circular blades mounted on a golden structure, bringing poetry and movement to this singular creation. With finesse and delicacy, this mobile will find a place of choice in your interior.
+                    </p>
+                    <p>
+                        Mounted on hand bent steel rods, the blades are made from a high quality aluminum alloy. Like leaves, they twirl and float with the wind and air circulation. The gold-plated brass base gives the whole a great stability.
+                    </p>
+                    <p>
+                        Your mobile will be delicately packaged in a luxurious blue box, set with our logo stamped in gold foil. A great opportunity to offer a memorable and original object to your loved ones!
+                    </p>
+                </li>
+            </ul>
+        </aside>
+        <div id="blue" class="active">
+            <img src="images/detail_30_1.jpg" alt="ISTANBUL_01">
+            <img src="images/detail_30_2.jpg" alt="ISTANBUL_02">
+            <img src="images/detail_30_3.jpg" alt="ISTANBUL_03">
+        </div>
+    </div>
+
+
+
+
+<a href="#" class="btnTop">
+    back to top
+</a>
+<!-- ! back to top -->
+
+<footer>
+    <div class="menu2">
+        <div>
+            <h2><img src="images/logo.png" alt="volta"></h2>
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="member_delivery.html">Delivery and returns</a></li>
+                <li><a href="member_general.html">General condition of sale</a></li>
+                <li><a href="member_legal.html"><strong>Legal Notice</strong></a></li>
+                <li><a href="https://www.instagram.com/volta_mobiles/" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+        <address>
+            <span>Company : VOLTA</span>
+            <span>Address : 17457 Riudellots de la Selva Girona - Spain</span>
+            <span>E-mail : <a href="mailto:hello@voltamobiles.com">hello@voltamobiles.com</a></span>
+            <span>Privacy Manager : VOLTA (hello@voltamobiles.com)</span>
+            <span>© 2022 VOLTA Mobiles</span>
+        </address>
+    </div>
+</footer>
+<!-- ! footer -->
+</body>
+</html>

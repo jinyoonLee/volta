@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>volta</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/volta.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+    <link rel="icon" href="images/favi_volta.ico">
+</head>
+<body>
+    <div id="searchPanel">
+        <h2>
+            SEARCH
+            <input type="button" value="close" class="material-icons btnClose">
+        </h2>
+        <div class="name2">
+            <form action="#">
+                <input type="search" id="searchField" title="looking for" placeholder="SEARCH HERE">
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+    <!-- ! searchPanel -->
+
+    <header class="menu1" id="home">
+        <div>
+            <p>
+                <strong>Free shipping to the EU,</strong> Outside EU import duty will apply
+            </p>
+        </div>
+        <div>
+            <h1>
+                <a href="index.html#">
+                    <img src="images/logo.png" alt="volta">
+                </a>
+            </h1>
+            <nav>
+                <input type="button" value="menu" id="muiNavBtn" class="material-icons">
+                <ul>
+                    <li>
+                        <b>SHOP</b>
+                        <ol class="menu2">
+                            <li><a href="list_vt_01.html">VOLTA</a></li>
+                            <li><a href="list_wv_01.html">WATT&amp;VEKE</a></li>
+                            <li><a href="list_fm_01.html">FLENSTED</a></li>
+                            <li><a href="list_kb_01.html">KAY BOJESEN</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="promotion.html"><strong>PROMOTION</strong></a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <ul> 
+                <li><a href="login.html">Login</a></li>
+                <li><a href="member_mypage.html">My page</a></li>
+                <li><a href="order_cart.html">Cart -</a><span>1</span></li>
+                <li><input type="button" value="search" class="material-icons" data-panel="searchPanel"></li>
+            </ul>
+        </div>
+    </header>
+    <!-- ! header -->
+
+
+    <section class="order paymentContainer2 name2">
+        <h2>PAYMENT</h2>
+        <div>
+            <h3>CREDIT CARD</h3>
+            <form>
+                <ul>
+                    <li>
+                        <label for="paymentCardNumber">CARD NUMBER</label>
+                        <input type="text" id="paymentCardNumber" placeholder="1234 5678 9012 3456" required>
+                    </li>
+                    <li>
+                        <label for="paymentExpiryDate">EXPIRY DATE</label>
+                        <input type="text" id="paymentExpiryDate" placeholder="MM&#47;YY" required>
+                    </li>
+                    <li>
+                        <label for="paymentCvc">CVC &#47; CW</label>
+                        <input type="text" id="paymentCvc" placeholder="3 DIGITS" required>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <span>ISTANBUL</span>
+                    <strong>
+                        ₩<span class="subTotalPrice">166000</span>
+                    </strong>
+                </li>
+                <li>
+                    <span>DELIVERY</span>
+                    <strong>
+                        ₩<span id="deliveryPrice">0</span>
+                    </strong>
+                </li>
+                <li>
+                    <span>TOTAL ORDER</span>
+                    <strong>
+                        ₩<output class="totalPrice">166000</output>
+                    </strong>
+                </li>
+            </ul>
+            <a class="aBtn" href="order_success.html">PAY NOW</a>
+            <a href="order_cart.html" class="optR">EDIT CART</a>
+        </div>
+    </section>
+
+
+
+    <a href="#" class="btnTop">
+        back to top
+    </a>
+    <!-- ! back to top -->
+
+    <footer>
+        <div class="menu2">
+            <div>
+                <h2><img src="images/logo.png" alt="volta"></h2>
+                <ul>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="member_delivery.html">Delivery and returns</a></li>
+                    <li><a href="member_general.html">General condition of sale</a></li>
+                    <li><a href="member_legal.html"><strong>Legal Notice</strong></a></li>
+                    <li><a href="https://www.instagram.com/volta_mobiles/" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+            <address>
+                <span>Company : VOLTA</span>
+                <span>Address : 17457 Riudellots de la Selva Girona - Spain</span>
+                <span>E-mail : <a href="mailto:hello@voltamobiles.com">hello@voltamobiles.com</a></span>
+                <span>Privacy Manager : VOLTA (hello@voltamobiles.com)</span>
+                <span>© 2022 VOLTA Mobiles</span>
+            </address>
+        </div>
+    </footer>
+    <!-- ! footer -->
+</body>
+</html>

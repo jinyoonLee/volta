@@ -1,0 +1,103 @@
+body{
+    font-family: 'Montserrat';
+}
+
+@media screen and (max-width: 767px){
+    .title2{
+        font-size: 28px; font-weight: 400; color: #1a1a1a;
+    }
+    .title3{
+        font-size: 34px; font-weight: 300; color: #1a1a1a;
+    }
+    .title4{
+        font-size: 25px; font-weight: 700; color: #1a1a1a;
+    }
+    .title5{
+        font-size: 18px; font-weight: 700; color: #1a1a1a;
+    }
+    .title6{
+        font-size: 14px; font-weight: 400; color: #8e8e8e;
+    }
+    .title7{
+        font-size: 12px; font-weight: 700; color: #1a1a1a;
+    }
+    .des2{
+        font-size: 14px; font-weight: 500; color: #8e8e8e;
+        line-height: 25px;
+    }
+    .des3{
+        font-size: 14px; font-weight: 300; color: #1a1a1a;
+    }
+    .name1{
+        font-size: 15px; font-weight: 500; color: #1a1a1a;
+    }
+    .name2{
+        font-size: 13px; font-weight: 400; color: #1a1a1a;
+    }
+    .name2 input::placeholder{
+        color: #c1c1c4;
+    }
+    .menu1{
+        font-size: 11px; font-weight: 400; color: #1a1a1a;
+    }
+    .menu2{
+        font-size: 10px; font-weight: 400; color: #8e8e8e;
+    }
+    strong{
+        font-size: inherit; font-weight: 700;
+    }
+}
+/* ? mobile */
+
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+    .title2{
+        font-size: 40px; font-weight: 400; color: #1a1a1a;
+    }
+    .title3{
+        font-size: 36px; font-weight: 300; color: #1a1a1a;
+    }
+    .title4{
+        font-size: 30px; font-weight: 700; color: #1a1a1a;
+    }
+    .title5{
+        font-size: 20px; font-weight: 700; color: #1a1a1a;
+    }
+    .title6{
+        font-size: 16px; font-weight: 400; color: #8e8e8e;
+    }
+    .title7{
+        font-size: 14px; font-weight: 700; color: #1a1a1a;
+    }
+    .des2{
+        font-size: 16px; font-weight: 500; color: #8e8e8e;
+        line-height: 25px;
+    }
+    .des3{
+        font-size: 16px; font-weight: 300; color: #1a1a1a;
+    }
+    .name1{
+        font-size: 18px; font-weight: 500; color: #1a1a1a;
+    }
+    .name2{
+        font-size: 15px; font-weight: 400; color: #1a1a1a;
+    }
+    .name2 input::placeholder{
+        color: #c1c1c4;
+    }
+    .menu1{
+        font-size: 13px; font-weight: 400; color: #1a1a1a;
+    }
+    .menu2{
+        font-size: 12px; font-weight: 400; color: #8e8e8e;
+    }
+    strong{
+        font-size: inherit; font-weight: 700;
+    }
+}
+/* ? tablet desktop */
