@@ -332,9 +332,6 @@
             bottom: 40%; opacity: 1;
         }
     }
-    .promotionArea ul li:nth-of-type(2) div{
-        right: 50px;
-    }
     .promotionArea ul li h2{
         padding-top: 330px; margin-bottom: 40px;
     }
@@ -905,7 +902,7 @@
         }
     }
     .promotionArea ul li:nth-of-type(2) div{
-        right: 50px;
+        right: 0;
     }
     .promotionArea ul li h2{
         padding-top: 330px; margin-bottom: 50px;
