@@ -8,11 +8,10 @@ $(document).ready(function(){
     openCloseControlPanel("header div:nth-child(2) >ul li input[type='button']","#searchPanel .btnClose");
     openCloseControlPopup(".contactContainer2 input[type='button']","#contactPop .btnClose","#contactPop .aBtn");
     openCloseControlPopup(".findContainer1 input[type='button']","#findPop .btnClose","#findPop .aBtn");
-    customSlider(".mainSlider",true,1,1,1680,0,false,true,true,true);
-    customSlider(".brandSlider >ul",true,1,1,1500,0,true,false,true,false);
+    customSlider(".brandSlider >ul",true,1,1,1500,0,true,true,true,true);
     customSlider(".figuresSlider >ul",true,1,1,1600,100,false,true,true,true);
-    customSlider(".aboutArea div:last-of-type ul",false,1,1,460,235,true,false,true,false);
-    tabSlider();
+    customSlider(".aboutArea div:last-of-type ul",false,1,1,460,235,true,true,true,true);
+    bestSlider();
     productColor(".productCard ul li");
     productColor(".productCardList ul li");
     productColor(".detailTabMenu li");
@@ -80,65 +79,39 @@ function customSlider(target, pgVal, mivSVal, maxSVal, swVal, smVal, hcoVal,infV
         hideControlOnEnd: hcoVal,
         infiniteLoop: infVal,
         moveSlides: 1,
+        adaptiveHeight: true,
         controls : ctVal,
-        auto: aVal
+        auto: aVal,
+        autoHover: true,
+        pause: 2000
     });
 }
-function tabSlider(){
-    var btnTarget = $(".bestSlider .bestTabMenu li");
+function bestSlider(){
     if (window.matchMedia("(max-width: 767px)").matches){
-        var targetSlider = $("#bestTab1");
-            targetSlider.children("ul").bxSlider({
+        $(".bestSlider >ul").bxSlider({
                 minSlides: 1,
                 maxSlides: 2,
                 slideWidth: 420,
                 slideMargin: 0,
                 moveSlides: 1,
-                infiniteLoop: false,
-                hideControlOnEnd: true
+                infiniteLoop: true,
+                adaptiveHeight: true,
+                auto: true,
+                autoHover: true,
+                pause: 3000
             });
-        $(btnTarget).click(function(){
-            btnTarget.removeClass("activated");
-            $(this).addClass("activated");
-            targetSlider.removeClass("activated");
-            targetSlider = $("#" + $(this).attr("data-tabNumb"));
-            targetSlider.addClass("activated");
-            targetSlider.children("ul").bxSlider({
-                minSlides: 1,
-                maxSlides: 2,
-                slideWidth: 420,
-                slideMargin: 0,
-                moveSlides: 1,
-                infiniteLoop: false,
-                hideControlOnEnd: true
-            });
-        });
     }else{
-        var targetSlider = $("#bestTab1");
-        targetSlider.children("ul").bxSlider({
+        $(".bestSlider >ul").bxSlider({
             minSlides: 3,
             maxSlides: 3,
             slideWidth: 420,
             slideMargin: 0,
-            moveSlides: 1,
-            infiniteLoop: false,
-            hideControlOnEnd: true
-        });
-        $(btnTarget).click(function(){
-            btnTarget.removeClass("activated");
-            $(this).addClass("activated");
-            targetSlider.removeClass("activated");
-            targetSlider = $("#" + $(this).attr("data-tabNumb"));
-            targetSlider.addClass("activated");
-            targetSlider.children("ul").bxSlider({
-                minSlides: 3,
-                maxSlides: 3,
-                slideWidth: 420,
-                slideMargin: 0,
-                moveSlides: 1,
-                infiniteLoop: false,
-                hideControlOnEnd: true
-            });
+            moveSlides: 3,
+            infiniteLoop: true,
+            adaptiveHeight: true,
+            auto: true,
+            autoHover: true,
+            pause: 3000
         });
     }
 }
