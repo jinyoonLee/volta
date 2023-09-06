@@ -4,7 +4,7 @@
         background: url('../images/mainBan_mo_01.jpg') no-repeat center;
     }
     .mainContainer .mainBan >*{
-        width: 300px;
+        width: 200px;
     }
     .mainContainer .mainBan dl:after{
         content: ''; display: block; clear: both;
