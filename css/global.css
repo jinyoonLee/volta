@@ -773,9 +773,6 @@ address{
 
 
 
-    .mainContainer .bx-wrapper .bx-pager{
-        bottom: 40px;
-    }
     .mainContainer .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item{
         width: 100px;
     }
@@ -1336,9 +1333,6 @@ address{
 
 
 
-    .mainContainer .bx-wrapper .bx-pager{
-        bottom: 40px;
-    }
     .mainContainer .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item{
         width: 100px;
     }
