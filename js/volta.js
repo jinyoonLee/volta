@@ -83,7 +83,8 @@ function customSlider(target, pgVal, mivSVal, maxSVal, swVal, smVal, hcoVal,infV
         controls : ctVal,
         auto: aVal,
         autoHover: true,
-        pause: 2000
+        pause: 2000,
+        touchEnabled: false
     });
 }
 function bestSlider(){
@@ -98,7 +99,8 @@ function bestSlider(){
                 adaptiveHeight: true,
                 auto: true,
                 autoHover: true,
-                pause: 3000
+                pause: 3000,
+                touchEnabled: false
             });
     }else{
         $(".bestSlider >ul").bxSlider({
@@ -111,7 +113,8 @@ function bestSlider(){
             adaptiveHeight: true,
             auto: true,
             autoHover: true,
-            pause: 3000
+            pause: 3000,
+            touchEnabled: false
         });
     }
 }
