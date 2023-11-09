@@ -484,9 +484,6 @@ address{
     header div:nth-child(2) nav ul li ol li{
         text-align: left; line-height: 36px;
     }
-    header div:nth-child(2) nav ul li ol li:nth-of-type(even){
-        color: #fff;
-    }
     header div:nth-child(2) >ul >*:not(:last-child){
         display: none;
     }
