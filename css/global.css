@@ -469,6 +469,9 @@ address{
     header div:nth-child(2) nav >ul >li{
         line-height: 40px; width: 45%; float: left;
     }
+    header div:nth-child(2) nav >ul >li:nth-of-type(even){
+        color: #fff;
+    }
     header div:nth-child(2) nav >ul >li:not(:first-child){
         padding-left: 10%;
     }
